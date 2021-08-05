@@ -6,8 +6,6 @@ import { jsPDF } from 'jspdf';
 import Button from '@material-ui/core/Button';
 import CloudUploadIcon from '@material-ui/icons/CloudUpload';
 
-import faN1 from "../../assets/fa.jpg"
-
 const Home = () => {
     
     useEffect(() =>{
@@ -38,7 +36,7 @@ const Home = () => {
       </Button>
       <div id="mainContainer" style={{ overflow: 'hidden', height: '0', width: '700px' }}>
           <div id="container" style={{ width: '100%'}}>
-                <img src={ faN1 } style={{ height: '100%', width: '100%'}}/>
+                <img style={{ height: '100%', width: '100%'}}/>
           </div>
       </div>
       </>
